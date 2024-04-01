@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating - MERN Stack Dating App</title>
+    <link rel="stylesheet" href="homepage.css" >
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+<div class="home-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#page-top">FLIT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="chat.html">Chat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="dating-container">
+
+        <div class="photo-container">
+            <img src="match.jpg" alt="Photo 1" id="photo">
+            <img src="pexels-kampus-production-5689738.jpg" alt="Photo 2" id="photo2">
+            <button class="swipe-button left" onclick="handleSwipe('left')">&#10094;</button>
+            <button class="swipe-button right" onclick="handleSwipe('right')">&#10095;</button>
+        </div>
+
+
+    <div class="buttons">
+        <button class="like-button">&#10003; Like</button>
+        <button class="dislike-button">&#10005; Dislike</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
+

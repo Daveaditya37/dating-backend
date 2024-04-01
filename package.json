@@ -2,14 +2,24 @@
   "name": "c",
   "version": "1.0.0",
   "description": "dating app backend",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemonmp server.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Aditya Dave",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "expess": "^0.0.1-security",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  },
+  "main": "server.js"
 }
